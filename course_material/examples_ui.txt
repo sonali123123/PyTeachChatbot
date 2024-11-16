@@ -1,0 +1,8 @@
+Can you explain what a function is in Python?
+How do I handle missing values in a dataset?
+What is the difference between supervised and unsupervised learning?
+What is the correct syntax to import libraries in Python?
+Can you explain the bias-variance tradeoff?
+How does the k-nearest neighbors algorithm work?
+What are some common techniques for natural language processing?
+How do I preprocess text data for NLP tasks?

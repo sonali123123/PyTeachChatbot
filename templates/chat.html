@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woxsen AI Chat</title>
+</head>
+<body>
+    <h1>{{ chat_header }}</h1>
+    <div id="chatbox">
+        <!-- Chat history will be displayed here -->
+    </div>
+    <form action="/chat" method="post">
+        <input type="text" name="query" placeholder="Your question..." required>
+        <input type="hidden" name="chat_history" value="">
+        <button type="submit">Go!</button>
+    </form>
+    <p>{{ chat_footer }}</p>
+</body>
+</html>
